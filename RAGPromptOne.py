@@ -1,7 +1,7 @@
 # This script uses Vector database as a context for answering the question, using LLaMa 2 and Huggingface chatbot.
-# Works with RAGforBooks v1.1.py which saves vector embeddings to a Chroma database.
+# Works with RAGforBooks.py which saves vector embeddings to a Chroma database.
 #
-# Run in terminal:
+# Before running the script, you might need to install the following:
 # pip install transformers accelerate sentencepiece
 #
 # Download model from HuggingFace and save the config.json file in the current directory.
