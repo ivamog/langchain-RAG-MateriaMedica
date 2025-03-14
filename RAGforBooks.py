@@ -1,20 +1,4 @@
-# In cmd install the following
-# pip install unstructured # error handling for document uploads
-# pip install "unstructured[md]" # for markdown files
-# pip install libmagic # for file type detection
-# pip install python-magic-bin # for file type detection
-# pip install langchain # LLM Library
-# pip install chromadb # Vecotr database
-# pip install pyPDF   # For loading PDFs 
-# pip install pytest  # For Unit Testing
-# pip install -U langchain-community # For loading documents from a directory
-# pip install openai # For OpenAI Embeddings if usng OpenAI
-# pip install tiktoken # For tokenizing text
-# pip install -U langchain-openai # Latect Langchain OpenAI library
-# pip install -U langchain-community # Latest Langchain Community library
-# pip install sentence-transformers # Use Free HuggingFace Sentence Transformers instead of OpenAI
-# pip install -U langchain-huggingface # Latest Langchain HuggingFace library
-# pip install -U langchain-chorma # Latest Langchain Chroma library
+# Description: This script is used to generate the data store for the RAG model.
 
 
 from langchain_community.document_loaders import DirectoryLoader	# For loading documents from a directory
