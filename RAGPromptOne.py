@@ -18,9 +18,7 @@ from dataclasses import dataclass
 # from langchain_community.vectorstores.chroma import Chroma
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings  # For HuggingFace Embeddings
-from langchain_huggingface import HuggingFacePipeline  # For HuggingFace Similarity
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
-from langchain_huggingface import ChatHuggingFace  # For HuggingFace Chat
 from langchain.prompts import ChatPromptTemplate  # For ChatPromptTemplate
 
 CHORMA_PATH = "chroma"
