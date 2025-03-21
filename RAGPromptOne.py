@@ -24,12 +24,16 @@ from langchain.prompts import ChatPromptTemplate  # For ChatPromptTemplate
 CHORMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
-Answer the question based only on the following context:
+System: You are a homeopathy doctor that provides accurate and concise answers taking into account the given context.
+
+User: {query_text}
+
+Assistant: Answer the question based on the following context, combined with your own knowledge:
 
 {context}
 
 ---
-Answer the question based on the above context: {query_text}
+Assistant: Based on the above context, here is the answer to the user's question:
 """
 
 # Define embedding function

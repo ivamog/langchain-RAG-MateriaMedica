@@ -1,24 +1,8 @@
-langchain
-python-dotenv
-pandas
-numpy
-transformers
-accelerate
-sentencepiece
-unstructured
-unstructured[md]
-libmagic
-python-magic-bin
-langchain
-chromadb
-pyPDF
-pytest
-langchain-community
 openai
-tiktoken
-langchain-openai
+langchain
+langchain_chroma
 langchain-huggingface
-langchain-chroma
-sentence-transformers
+chromadb
+python-dotenv
 
 
